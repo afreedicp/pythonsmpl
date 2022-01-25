@@ -24,13 +24,13 @@ def reptwo():
 rept()
 reptwo()
 
-def nostrng():
+def only_string():
+     strings=[]
      for x in list:
-     #     print(type(x)) 
           if(type(x)==str):
-           list.remove(x)
-           print(x, "is a string")
-     print(list)
+               strings.append(x)
+              
+     print('The New List is {}'.format(strings))
           
 
-nostrng()
+only_string()
